@@ -1,27 +1,112 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  background-color: beige;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.desc{
+.desc {
+  background-color: #80d5dc;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 20px 30px 0px #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 2;
+  align-items: center;
+  margin: 2rem;
+  color: white;
+  padding: 2rem;
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+}
+
+.input_box {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  margin: 2rem;
+  border: 0.75px solid #808080;
+  border-radius: 10px;
+}
+
+.temp {
+  font-size: 22px;
+}
+
+.btn_click {
+  background-color: steelblue;
+  color: floralwhite;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 1rem;
+  border: none;
+  outline: #80d5dc;
+  box-shadow: 0px 10px 10px 0px #808080;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fog {
+  background-color: rgb(191, 205, 216);
+}
+
+.cloudy {
+  background-color: rgb(81, 100, 119);
+}
+
+.partly_cloudy {
+  background-color: gray;
+}
+.sunny {
+  background-color: #fda50f;
+}
+.mist {
+  background-color: gainsboro;
+}
+.rainy {
+  background-color: rgb(138, 136, 136);
+}
+.overcast {
+  background-color: #80d5dc;
+}
+.clear {
+  background-color: #5072a7;
+}
+.btn_remove {
+  height: 20px;
+  width: 15px;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: red;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgb(57, 60, 63);
+}
+h1{
+  color: #755139FF;
+  font-weight: bold;
+  font-family: 'Roboto','sans-serif';
+}
+.time{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #808080;
-  margin: 2rem;
-  
-}
-.img{
-  height: 35px;
-  width: 30px;
 }
